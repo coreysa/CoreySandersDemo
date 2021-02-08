@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, Switch, BrowserRouter as Router, Route } from "react-router-dom";
 import "./App.css";
-import "./dark.css";
+// import "./dark.css";
 
 import Nav from "./Nav";
 import Feed from "./Feed";
