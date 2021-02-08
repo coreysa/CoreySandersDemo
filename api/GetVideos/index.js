@@ -8,7 +8,6 @@ module.exports = async function getBlobs(context, req) {
   const containerName = process.env.STORAGE_CONTAINER;
   const accountName = process.env.STORAGE_ACCOUNT;
 
-
   
   const blobServiceClient = BlobServiceClient.fromConnectionString(
     connectionString
